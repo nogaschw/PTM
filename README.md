@@ -1,4 +1,4 @@
-![model_architecture](https://github.com/user-attachments/assets/d0cb6c54-f693-47ac-9247-3dcf866a5caa)This repository contains the code and resources for our research. Below is an overview of the folder structure and the key components.
+This repository contains the code and resources for our research. Below is an overview of the folder structure and the key components.
 
 ## Model
 
