@@ -1,6 +1,4 @@
-# Thesis
-
-This repository contains the code and resources for our research. Below is an overview of the folder structure and the key components.
+![model_architecture](https://github.com/user-attachments/assets/d0cb6c54-f693-47ac-9247-3dcf866a5caa)This repository contains the code and resources for our research. Below is an overview of the folder structure and the key components.
 
 ## Model
 
@@ -28,5 +26,5 @@ This JSON file contains the final programming concepts and details on how concep
 ## Model Architecture
 
 An image of our model architecture will be placed here.
+![model_architecture](https://github.com/user-attachments/assets/77ac3e4b-101f-4cfb-8e31-b8a6fa557e91)
 
-![Model Architecture](path/to/your/image.png)
