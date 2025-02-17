@@ -1,0 +1,38 @@
+{
+  "programming_concepts": [
+    "IfElse",
+    "Loops",
+    "MathOperations",
+    "LogicOperations",
+    "StringOperations",
+    "List",
+    "FileOperations",
+    "Functions",
+    "Dictionary",
+    "Tuple"
+  ],
+  "falcon": {
+    "IfElse": ["conditional"],
+    "Loops": ["loop_counting", "loop_until", "loop_elements", "loop_nested"],
+    "MathOperations": ["stat_calculate", "assignment"],
+    "LogicOperations": [],
+    "StringOperations": ["input_str", "input_cast", "output"],
+    "List": ["list", "list_2d"],
+    "FileOperations": ["file_read", "file_write"],
+    "Functions": ["function_call", "function_def", "function_return"],
+    "Dictionary": ["dictionary"],
+    "Tuple": ["tuple", "item_set"]
+  },
+  "codeworkout": {
+    "IfElse": ["If/Else", "NestedIf"],
+    "Loops": ["While", "For", "NestedFor"],
+    "MathOperations": ["Math+-*/", "Math%"],
+    "LogicOperations": ["LogicAndNotOr", "LogicCompareNum", "LogicBoolean"],
+    "StringOperations": ["StringFormat", "StringConcat", "StringIndex", "StringLen", "StringEqual", "CharEqual"],
+    "List": ["ArrayIndex"],
+    "FileOperations": [],
+    "Functions": ["DefFunction"],
+    "Dictionary": [],
+    "Tuple": []
+  }
+}
