@@ -22,9 +22,3 @@ The `Data` folder contains scripts and resources to generate the dataset type re
 
 ## Programming Concepts
 This JSON file contains the final programming concepts and details on how concepts are merged in each dataset.
-
-## Model Architecture
-
-An image of our model architecture will be placed here.
-![model_architecture](https://github.com/user-attachments/assets/77ac3e4b-101f-4cfb-8e31-b8a6fa557e91)
-
