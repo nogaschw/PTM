@@ -146,7 +146,6 @@ def gen(batch_prompts):
 
 all_prompts = [build_prompt(prompt) for row in df['user_input'] for prompt in row]
 
-print(name, f'/home/nogaschw/Codeworkout/Thesis/{name}.csv', flush=True)
 #########################
 # 5. Generate Predictions
 #########################
@@ -211,4 +210,4 @@ df['decomposition'] = d
 df['alg'] = a
 df['reading'] = r
 
-df.to_csv(f'/home/nogaschw/Codeworkout/Thesis/{name}.csv')
+df.to_csv(f'/home/{name}.csv')
