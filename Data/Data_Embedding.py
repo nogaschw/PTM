@@ -14,7 +14,7 @@ Attributes:
 import pickle
 from torch.utils.data import Dataset
 
-base_path = 'UseData/'
+base_path = 'Datasets/'
 code_to_model_dict = None
 
 def load(all):

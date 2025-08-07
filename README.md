@@ -1,5 +1,42 @@
 This repository contains the code and resources for our research. Below is an overview of the folder structure and the key components.
 
+## Setup and Installation
+
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package installer)
+
+### Installing Dependencies
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd PTM
+   ```
+
+2. **Install required packages:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Alternative: Create a virtual environment (recommended):**
+   ```bash
+   # Create virtual environment
+   python -m venv ptm_env
+   
+   # Activate virtual environment
+   # On Linux/Mac:
+   source ptm_env/bin/activate
+   # On Windows:
+   ptm_env\Scripts\activate
+   
+   # Install dependencies
+   pip install -r requirements.txt
+   ```
+
+### GPU Support
+For optimal performance, ensure you have CUDA-compatible PyTorch installed if you plan to use GPU acceleration. The requirements.txt includes the basic PyTorch installation, but you may need to install the CUDA-specific version based on your system configuration.
+
 ## Model
 
 The main model, referred to as PTM in our article, is located inside the `Model/Model` directory. This directory contains the implementation of the model along with the necessary scripts to train and evaluate it.

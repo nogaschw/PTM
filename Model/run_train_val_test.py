@@ -1,15 +1,16 @@
 import os
 import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import torch
 from helper import *
 from Models import *
 import torch.nn as nn
-sys.path.append(os.path.join(os.getcwd(), 'Thesis'))
 from Data.Data import *
 from Config import Config
+from Data.choosedataset import *
 from sklearn.metrics import roc_curve
 from transformers import AutoTokenizer
-from Data.choosedataset import *
 import Data.Data_Embedding as Data_Embedding
 
 # Set the configuration

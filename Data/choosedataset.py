@@ -4,7 +4,7 @@ import pandas as pd
 from Config import Config
 
 # Read the programming concepts from a JSON file
-with open('../programing_concepts.json', 'r') as file:
+with open('programing_concepts.json', 'r') as file:
     programming_concepts= json.load(file)
 config = Config()
 

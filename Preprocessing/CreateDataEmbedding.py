@@ -53,8 +53,9 @@ def process_in_batches(code_model, code_tokenizer, text_list, batch_size, device
 # Initialize configuration
 config = Config()
 
+print(config.__dict__)
 # Load preprocessed DataFrame
-df = pd.read_pickle(config.path_tosave_codeworkout)
+df = pd.read_pickle([config.path_tosave_codeworkout, config.path_tosave_falcon][config.dataset])
 
 # Extract all unique code snippets
 all_code = set(chain.from_iterable(df['prev_tasks'].apply(lambda x: set([item for sublist in x for item in sublist]))))
