@@ -1,4 +1,5 @@
-This repository contains the code and resources for our research. Below is an overview of the folder structure and the key components.
+Official Implementation of “Detecting Struggling Student Programmers using Proficiency Taxonomies” (ECAI 2025)
+This repository contains the code, links to datasets, and resources for our ECAI 2025 paper introducing the Proficiency Taxonomy Model (PTM) - a multi-task AI framework that leverages coding proficiency taxonomies and students’ complete coding histories to predict struggling programmers.
 
 ## Setup and Installation
 
